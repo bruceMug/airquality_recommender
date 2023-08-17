@@ -38,7 +38,10 @@ def get_recommendation(user_details, X_encoded):
     label_encoder_pm.fit(list(custom_mapping.values()))
     data_encoded['pm_category'] = data_encoded['pm_category'].map(custom_mapping)
     # print(data_encoded.head())
-    return True
+    
+    data_scaled = scaler.transform(data_encoded)
+    predicted_label_encoded = model.predict(data_scaled)
+    return predicted_label_encoded
 
 
 @app.route('/')
