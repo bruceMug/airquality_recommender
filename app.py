@@ -7,6 +7,18 @@ import joblib
 
 app = Flask(__name__)
 
+def get_recommendation(user_details, X_encoded):
+    age, health_condition, health_status, pm_category, activities, latitude, longitude = user_details
+    data = {'age': age,
+          'Health Conditions': health_condition,
+          'Health Status': health_status,
+          'Activities': activities,
+          'Latitude': latitude,
+          'Longitude':longitude,
+          'pm_category': pm_category
+          }
+    return True
+
 
 @app.route('/')
 def index():
@@ -45,7 +57,6 @@ def predict():
     predicted_label_encoded = get_recommendation(user_details, X_encoded)
     
     predicted_label_original = [custom_mapping_inverse_recommendation[label] for label in predicted_label_encoded]
-    
     
     
     return render_template('predict.html', prediction=predicted_label_original[0])    
