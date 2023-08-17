@@ -42,6 +42,8 @@ def predict():
     longitude = 32.46346
     
     user_details = [age, health_condition, health_status, pm_category, activities, latitude, longitude]
+    predicted_label_encoded = get_recommendation(user_details, X_encoded)
+    
     
     
     return render_template('predict.html')
