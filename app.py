@@ -22,6 +22,8 @@ def get_recommendation(user_details, X_encoded):
     data = pd.DataFrame([data], columns=data.index)
 
     categorical_cols = ['Health Conditions', 'Health Status', 'Activities']
+    data_encoded = pd.get_dummies(data, columns=categorical_cols, dtype=int)
+    data_encoded = data_encoded.reindex(columns=X_encoded.columns, fill_value=0)
     return True
 
 
