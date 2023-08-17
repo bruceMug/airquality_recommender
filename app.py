@@ -54,6 +54,7 @@ def get_recommendation(user_details, X_encoded):
 def index():
     return render_template('index.html')
 
+
 @app.route('/predict')
 def predict():
     columns = ['age', 'Latitude', 'Longitude', 'pm_category',
@@ -90,6 +91,7 @@ def predict():
     
     
     return render_template('predict.html', prediction=predicted_label_original[0])    
+
 
 
 if __name__ == '__main__':
