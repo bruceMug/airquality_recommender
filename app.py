@@ -17,6 +17,11 @@ def get_recommendation(user_details, X_encoded):
           'Longitude':longitude,
           'pm_category': pm_category
           }
+    
+    data = pd.Series(data)
+    data = pd.DataFrame([data], columns=data.index)
+
+    categorical_cols = ['Health Conditions', 'Health Status', 'Activities']
     return True
 
 
