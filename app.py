@@ -14,6 +14,14 @@ def index():
 
 @app.route('/predict')
 def predict():
+    columns = ['age', 'Latitude', 'Longitude', 'pm_category',
+       'Health Conditions_Asthma', 'Health Conditions_Chronic',
+       'Health Conditions_High Blood Pressure', 'Health Conditions_None',
+       'Health Conditions_Pneumonia', 'Health Status_Sick',
+       'Activities_Running', 'Activities_Swimming', 'Activities_Walking']
+
+    # print(predict(20,'Asthma','Sick','Very unhealthy','Running',0.35319,32.46346))
+    
     return render_template('predict.html')
 
 
