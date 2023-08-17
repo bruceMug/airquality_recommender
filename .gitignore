@@ -1,4 +1,7 @@
 # virtual environment folders
 predenv
 
+# scaler files
+scaler.pkl
+
 
