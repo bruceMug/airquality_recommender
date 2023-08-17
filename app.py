@@ -32,6 +32,12 @@ def get_recommendation(user_details, X_encoded):
             data_encoded[col] = 0
         data_encoded = data_encoded[X_encoded.columns]
     """
+    
+    custom_mapping = {'Unhealthy': 0, 'Unhealthy for sensitive groups': 1, 'Very unhealthy': 2, 'good': 3, 'moderate': 4}
+    label_encoder_pm = LabelEncoder()
+    label_encoder_pm.fit(list(custom_mapping.values()))
+    data_encoded['pm_category'] = data_encoded['pm_category'].map(custom_mapping)
+    # print(data_encoded.head())
     return True
 
 
