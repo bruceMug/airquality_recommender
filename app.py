@@ -44,6 +44,9 @@ def predict():
     user_details = [age, health_condition, health_status, pm_category, activities, latitude, longitude]
     predicted_label_encoded = get_recommendation(user_details, X_encoded)
     
+    predicted_label_original = [custom_mapping_inverse_recommendation[label] for label in predicted_label_encoded]
+    
+    
     
     
     return render_template('predict.html')
