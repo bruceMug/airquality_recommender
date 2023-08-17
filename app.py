@@ -48,8 +48,7 @@ def predict():
     
     
     
-    
-    return render_template('predict.html')
+    return render_template('predict.html', prediction=predicted_label_original[0])    
 
 
 if __name__ == '__main__':
