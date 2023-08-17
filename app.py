@@ -64,7 +64,6 @@ def predict():
        'Activities_Running', 'Activities_Swimming', 'Activities_Walking']
 
     X_encoded = pd.DataFrame(columns=columns)
-    # print(predict(20,'Asthma','Sick','Very unhealthy','Running',0.35319,32.46346))
     
     custom_mapping_inverse_recommendation = {0: 'Avoid all physical outdoor activities ❌',
                                              1: 'Avoid prolonged/heavy outdoor exertion ❌',
@@ -88,6 +87,7 @@ def predict():
     predicted_label_encoded = get_recommendation(user_details, X_encoded)
     
     predicted_label_original = [custom_mapping_inverse_recommendation[label] for label in predicted_label_encoded]
+    print(predicted_label_original)
     
     
     return render_template('predict.html', prediction=predicted_label_original[0])    
