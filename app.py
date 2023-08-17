@@ -7,6 +7,9 @@ import joblib
 
 app = Flask(__name__)
 
+
+model = joblib.load('randomforestmodel.pkl') # best_rf
+
 def get_recommendation(user_details, X_encoded):
     age, health_condition, health_status, pm_category, activities, latitude, longitude = user_details
     data = {'age': age,
