@@ -23,6 +23,16 @@ def predict():
     X_encoded = pd.DataFrame(columns=columns)
     # print(predict(20,'Asthma','Sick','Very unhealthy','Running',0.35319,32.46346))
     
+    custom_mapping_inverse_recommendation = {0: 'Avoid all physical outdoor activities ❌',
+                                             1: 'Avoid prolonged/heavy outdoor exertion ❌',
+                                             2: 'Good day to be active outside ☀️',
+                                             3: 'Great day to be active outside 🌞',
+                                             4: 'Reduce prolonged or heavy outdoor exertion ⚠️',
+                                             5: 'Take more breaks during outdoor activities ⏸',
+                                             6: 'Keep quick relief medicine handy 💊',
+                                             7: 'Reschedule for when air quality is better 📅'}
+
+    
     return render_template('predict.html')
 
 
