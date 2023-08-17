@@ -32,6 +32,17 @@ def predict():
                                              6: 'Keep quick relief medicine handy 💊',
                                              7: 'Reschedule for when air quality is better 📅'}
 
+    # predicted_label_encoded = [6]
+    age = 40
+    health_condition = 'Chronic'
+    health_status = 'Sick'
+    pm_category = 'Very unhealthy'
+    activities = 'Walking'
+    latitude = 0.35319
+    longitude = 32.46346
+    
+    user_details = [age, health_condition, health_status, pm_category, activities, latitude, longitude]
+    
     
     return render_template('predict.html')
 
