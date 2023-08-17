@@ -9,6 +9,9 @@ app = Flask(__name__)
 
 
 model = joblib.load('randomforestmodel.pkl') # best_rf
+# Load the scaler
+scaler = joblib.load('scaler.pkl') # best_rf_scaler
+
 
 def get_recommendation(user_details, X_encoded):
     age, health_condition, health_status, pm_category, activities, latitude, longitude = user_details
