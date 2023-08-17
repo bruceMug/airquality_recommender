@@ -20,6 +20,7 @@ def predict():
        'Health Conditions_Pneumonia', 'Health Status_Sick',
        'Activities_Running', 'Activities_Swimming', 'Activities_Walking']
 
+    X_encoded = pd.DataFrame(columns=columns)
     # print(predict(20,'Asthma','Sick','Very unhealthy','Running',0.35319,32.46346))
     
     return render_template('predict.html')
