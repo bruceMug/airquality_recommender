@@ -24,6 +24,14 @@ def get_recommendation(user_details, X_encoded):
     categorical_cols = ['Health Conditions', 'Health Status', 'Activities']
     data_encoded = pd.get_dummies(data, columns=categorical_cols, dtype=int)
     data_encoded = data_encoded.reindex(columns=X_encoded.columns, fill_value=0)
+    
+    # Ensure the columns in prediction data match the training data
+    """
+        missing_cols = set(X_encoded.columns) - set(data_encoded.columns)
+        for col in missing_cols:
+            data_encoded[col] = 0
+        data_encoded = data_encoded[X_encoded.columns]
+    """
     return True
 
 
