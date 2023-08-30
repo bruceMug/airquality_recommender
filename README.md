@@ -5,6 +5,7 @@ This project will use machine learning to develop personalized air quality recom
 
 This project was geared towards utilizing machine learning techniques to provide personalized air quality recommendations to users based on their health status, age, activities, and pm2.5 values.
 
+> :warning: **The project is still in development and the user interface is not yet complete**. We aimed at getting a predicting model first.
 
 ## Scope
 The project used a machine learning approach to develop personalized air quality recommendations. The following steps were taken:
