@@ -28,9 +28,11 @@ The user data was synthesized, encompassing attributes like age, health conditio
 To obtain the target feature column, a custom python script was written which considered the quality category of air and the age of the user to assign a recommendation. More can be found in the [notebook](https://colab.research.google.com/drive/1iKuH7mPeid2bq7V7U4c9Dx2HGGyloOtS?usp=sharing)
 
 Age distribution of users
+
 ![age distribution](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/age%20distribution.png)
 
-Counts of Values of pm categories
+Counts of pm categories
+
 ![Air quality categories counts](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/download%20(1).png)
 
 ## Model Development
@@ -49,10 +51,13 @@ Upon evaluating the models, the Decision Tree model achieved an accuracy of 0.88
 The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating the efficacy of the machine learning approach.
 
 The confusion matrices for the models are shown below:
+
 Decision Tree Classifier Confusion Matrix
+
 ![decision tree confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/decision%20tree.png)
 
 Random Forest Classifier Confusion Matrix
+
 ![random forest confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/randomforest.png)
 
 
@@ -72,7 +77,26 @@ Detailed information about the project can be found in the [notebook](https://co
 ## References
 - [AirQo](https://airqo.net/)
 
+## Contact
+Created by Bruce Mugizi - [@bruceMug](https://twitter/brucemug) - [mugizi@duck.com](mugizi@duck.com) - feel free to contact me!
+
+Project Link: [https://github.com/bruceMug/airquality_recommender](https://github.com/bruceMug/airquality_recommender)
+
+## Contributors ✨
+Thanks to the following people who have contributed to this project:
+
+<table>
+<tbody>
+<tr>
+<td>Hey</td>
+</tr>
+</tbody>
+</table>
+
 
 
 ## Acknowledgements
+- [AirQo](https://airqo.net/)
+- [Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+
 
