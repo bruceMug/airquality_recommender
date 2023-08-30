@@ -27,6 +27,10 @@ The user data was synthesized, encompassing attributes like age, health conditio
 
 To obtain the target feature column, a custom python script was written which considered the quality category of air and the age of the user to assign a recommendation. More can be found in the [notebook](https://colab.research.google.com/drive/1iKuH7mPeid2bq7V7U4c9Dx2HGGyloOtS?usp=sharing)
 
+The data was then cleaned and preprocessed to remove missing values, duplicates, and outliers. The data was then split into training and testing sets. The training set was used to train the models, while the testing set was used to evaluate the performance of the models.
+
+
+
 Age distribution of users
 
 ![age distribution](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/age%20distribution.png)
@@ -46,9 +50,15 @@ Hyperparameter tuning for the Random Forest Classifier was performed using the R
 For the decision tree tuning, we used the gridsearchCV with two sets of hyperparameters in which case the best parameters were ‘entropy’ as criterion, max depth of 30 and min samples split as 15. 
 
 
+Feature importance was also performed to determine the most important features in the model. The feature importance plot is shown below:
+
+![Feature importance plot](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/feature_importance.png)
+
 ## Results
 Upon evaluating the models, the Decision Tree model achieved an accuracy of 0.88. Its classification report exhibited varying precision, recall, and f1-score values, reflecting a range of 0.40 to 1.00 for different classes. 
 The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating the efficacy of the machine learning approach.
+
+The models were then evaluated using the accuracy metric. The model with the highest accuracy was selected as the final model.
 
 The confusion matrices for the models are shown below:
 
