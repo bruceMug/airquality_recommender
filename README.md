@@ -53,6 +53,7 @@ The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating
 The confusion matrices for the models are shown below:
 
 Decision Tree Classifier Confusion Matrix
+
 ![decision tree confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/decision%20tree.png)
 
 Random Forest Classifier Confusion Matrix
@@ -80,14 +81,14 @@ Created by Bruce Mugizi - [@bruceMug](https://twitter/brucemug) - [mugizi@duck.c
 Project Link: [https://github.com/bruceMug/airquality_recommender](https://github.com/bruceMug/airquality_recommender)
 
 ## Contributors ✨
-Thanks to the following people who have contributed to this project:
+Special thanks to the following people who have contributed to this project:
 
 <table>
 <tbody>
 <tr>
-<td align="center" valign="top" width="14.28%"><a href="https://github.com/NakacwaOlivia"><img src="https://avatars.githubusercontent.com/u/69842870?v=4" width="100px;" alt="Olivia Nakacwa"/><br /><sub><b>Nakacwa Olivia</b></sub></a><br /><a title="Answering Questions">💬</a> <a title="Documentation">📖</a><a title="Reviewed Pull Requests">👀</a> <a title="Talks">📢</a></td>
+<td align="center" valign="top" width="14.28%"><a href="https://github.com/NakacwaOlivia"><img src="https://avatars.githubusercontent.com/u/69842870?v=4" width="100px;" alt="Olivia Nakacwa"/><br /><sub><b>Nakacwa Olivia</b></sub></a><br /><a title="Answering Questions">📧</a> <a title="Documentation">📖</a><a title="Thinking">💡</a> <a title="Talks">📢</a></td>
 
-<td align="center" valign="top" width="14.28%"><a href="https://github.com/mar-vyn23"><img src="https://avatars.githubusercontent.com/u/101456450?v=4" width="100px;" alt="Marvin Satulo"/><br /><sub><b>Marvin Satulo</b></sub></a><br /><a title="Answering Questions">💬</a> <a title="Documentation">📖</a><a title="Reviewed Pull Requests">👀</a> <a title="Talks">📢</a></td>
+<td align="center" valign="top" width="14.28%"><a href="https://github.com/mar-vyn23"><img src="https://avatars.githubusercontent.com/u/101456450?v=4" width="100px;" alt="Marvin Satulo"/><br /><sub><b>Marvin Satulo</b></sub></a><br /><a title="Answering Questions">📧</a> <a title="Documentation">📖</a><a title="Thinking">💡</a> <a title="Talks">📢</a></td>
 </tr>
 </tbody>
 </table>
