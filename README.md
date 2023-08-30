@@ -17,14 +17,14 @@ By leveraging user data and real-time pm2.5 readings, the aim was to empower ind
 
 
 ## Data
-The project utilized two main datasets: site data and user data.
+The project utilized two main datasets: [site data](https://drive.google.com/file/d/1TNmOPc1K3zm3faejW9APzXfX5cRUrsGx/view?usp=sharing) and [user data](https://drive.google.com/file/d/1A4LDc3EsBbre0XdROTVjKt47PorT-L93/view?usp=sharing).
 
 The site data encompassed hourly readings from AirQo and non-AirQo devices for the early months of 2023. 
 It included attributes such as site names, pm values, and geographic coordinates. A selection of columns including site name, site latitude, site longitude, and pm2.5 values was made for further analysis.
 
 The user data was synthesized, encompassing attributes like age, health conditions, and activities. This data was merged with the site data, forming the foundation for personalized recommendations.
-To obtain the target feature column, a python script was written which considered the quality category of air and the age of the use to assign a recommendation.
 
+To obtain the target feature column, a custom python script was written which considered the quality category of air and the age of the user to assign a recommendation.
 
 
 
@@ -33,14 +33,21 @@ To obtain the target feature column, a python script was written which considere
 
 
 ## Results
+Upon evaluating the models, the Decision Tree model achieved an accuracy of 0.88. Its classification report exhibited varying precision, recall, and f1-score values, reflecting a range of 0.40 to 1.00 for different classes. 
+
+The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating the efficacy of the machine learning approach.
 
 
 
 ## Conclusion
+The project successfully developed a machine learning model to provide personalized air quality recommendations to users based on their health status, age, activities, and pm2.5 values.
+
 
 
 
 ## References
+- [AirQo](https://airqo.net/)
+
 
 
 
