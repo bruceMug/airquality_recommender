@@ -40,20 +40,19 @@ To create an effective recommendation system, different machine learning algorit
 
 The model training process involved steps, such as feature selection, encoding categorical features, and splitting the dataset into training (70%) and testing sets (30%). 
 
+After the training, the models didn’t quite perform well. So, in-order to improve the accuracy, techniques like hyperparameter tuning and optimization had to be employed for the high performing algorithms.
+
 Hyperparameter tuning for the Random Forest Classifier was performed using the Random Search CV method, resulting in optimal parameters of 156 estimators and a maximum depth of 15.
 For the decision tree tuning, we used the gridsearchCV with two sets of hyperparameters in which case the best parameters were ‘entropy’ as criterion, max depth of 30 and min samples split as 15. 
 
 
-
 ## Results
 Upon evaluating the models, the Decision Tree model achieved an accuracy of 0.88. Its classification report exhibited varying precision, recall, and f1-score values, reflecting a range of 0.40 to 1.00 for different classes. 
-
 The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating the efficacy of the machine learning approach.
 
 The confusion matrices for the models are shown below:
 
 Decision Tree Classifier Confusion Matrix
-
 ![decision tree confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/decision%20tree.png)
 
 Random Forest Classifier Confusion Matrix
@@ -68,14 +67,12 @@ The table showing the accuracy of the models used is shown below:
 ## Conclusion
 The project successfully developed a machine learning model to provide personalized air quality recommendations to users based on their health status, age, activities, and pm2.5 values.
 
-For other information, take a look at the [model card](https://docs.google.com/document/d/1Oxor2V4Yaw5SCR__KXTVcectO95SjayVmwq4pBr9ag0/edit?usp=sharing) designed by [@Nakacwa Olivia]() which was designed to provide a summary of the model's performance and limitations.
+For other information, take a look at the [model card](https://docs.google.com/document/d/1Oxor2V4Yaw5SCR__KXTVcectO95SjayVmwq4pBr9ag0/edit?usp=sharing) designed by [@Nakacwa Olivia](https://github.com/NakacwaOlivia) which was designed to provide a summary of the model's performance and limitations.
+The model card can also be found [here](https://github.com/NakacwaOlivia/AirQuality-Personal-Recommendation)
 
 Detailed information about the project can be found in the [notebook](https://colab.research.google.com/drive/1iKuH7mPeid2bq7V7U4c9Dx2HGGyloOtS?usp=sharing).
 
 
-
-## References
-- [AirQo](https://airqo.net/)
 
 ## Contact
 Created by Bruce Mugizi - [@bruceMug](https://twitter/brucemug) - [mugizi@duck.com](mugizi@duck.com) - feel free to contact me!
@@ -89,10 +86,10 @@ Thanks to the following people who have contributed to this project:
 <tbody>
 <tr>
 <td>Hey</td>
+<td align="center" valign="top" width="14.28%"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/69842870?v=4" width="100px;" alt="Olivia Nakacwa"/><br /><sub><b>Nakacwa Olivia/b></sub></a><br /><a title="Answering Questions">💬</a> <a title="Documentation">📖</a> title="Reviewed Pull Requests">👀</a> <a title="Talks">📢</a></td>
 </tr>
 </tbody>
 </table>
-
 
 
 ## Acknowledgements
