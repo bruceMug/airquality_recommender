@@ -46,14 +46,18 @@ Upon evaluating the models, the Decision Tree model achieved an accuracy of 0.88
 
 The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating the efficacy of the machine learning approach.
 
-![decision tree confusion matrix]()
-![random forest confusion matrix]()
+![decision tree confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/decision%20tree.png)
+![random forest confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/randomforest.png)
+
+
+The table showing the accuracy of the models used is shown below:
+![model accuracy](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/table_accuracy.png)
 
 
 ## Conclusion
 The project successfully developed a machine learning model to provide personalized air quality recommendations to users based on their health status, age, activities, and pm2.5 values.
 
-For other information, take a look at the [model card]() designed by [@Nakacwa Olivia]() which was designed to provide a summary of the model's performance and limitations.
+For other information, take a look at the [model card](https://docs.google.com/document/d/1Oxor2V4Yaw5SCR__KXTVcectO95SjayVmwq4pBr9ag0/edit?usp=sharing) designed by [@Nakacwa Olivia]() which was designed to provide a summary of the model's performance and limitations.
 
 Detailed information about the project can be found in the [notebook](https://colab.research.google.com/drive/1iKuH7mPeid2bq7V7U4c9Dx2HGGyloOtS?usp=sharing).
 
