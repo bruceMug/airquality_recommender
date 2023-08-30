@@ -46,7 +46,11 @@ Upon evaluating the models, the Decision Tree model achieved an accuracy of 0.88
 
 The tuned Random Forest Classifier attained an accuracy of 0.8911, demonstrating the efficacy of the machine learning approach.
 
+The confusion matrices for the models are shown below:
+Decision Tree Classifier Confusion Matrix
 ![decision tree confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/decision%20tree.png)
+
+Random Forest Classifier Confusion Matrix
 ![random forest confusion matrix](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/randomforest.png)
 
 
