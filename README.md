@@ -83,7 +83,7 @@ The model card can also be found [here](https://github.com/NakacwaOlivia/AirQual
 
 Detailed information about the project can be found in the [notebook](https://colab.research.google.com/drive/1iKuH7mPeid2bq7V7U4c9Dx2HGGyloOtS?usp=sharing).
 
-
+**Warning:** The project is still in development and the user interface is not yet complete.. We aimed at getting a prediction first.
 
 ## Contact
 Created by Bruce Mugizi - [@bruceMug](https://twitter/brucemug) - [mugizi@duck.com](mugizi@duck.com) - feel free to contact me!
