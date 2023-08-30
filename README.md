@@ -27,9 +27,11 @@ The user data was synthesized, encompassing attributes like age, health conditio
 
 To obtain the target feature column, a custom python script was written which considered the quality category of air and the age of the user to assign a recommendation. More can be found in the [notebook](https://colab.research.google.com/drive/1iKuH7mPeid2bq7V7U4c9Dx2HGGyloOtS?usp=sharing)
 
-![age distribution]()
-![health conditions distribution]()
+Age distribution of users
+![age distribution](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/age%20distribution.png)
 
+Counts of Values of pm categories
+![Air quality categories counts](https://github.com/bruceMug/airquality_recommender/blob/main/static/images/download%20(1).png)
 
 ## Model Development
 To create an effective recommendation system, different machine learning algorithms were explored, and these include logistic regression, support vector machine, decision tree, random forest and xgboost classifier.
