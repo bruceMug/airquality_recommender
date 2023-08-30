@@ -85,8 +85,9 @@ Thanks to the following people who have contributed to this project:
 <table>
 <tbody>
 <tr>
-<td>Hey</td>
-<td align="center" valign="top" width="14.28%"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/69842870?v=4" width="100px;" alt="Olivia Nakacwa"/><br /><sub><b>Nakacwa Olivia/b></sub></a><br /><a title="Answering Questions">💬</a> <a title="Documentation">📖</a> title="Reviewed Pull Requests">👀</a> <a title="Talks">📢</a></td>
+<td align="center" valign="top" width="14.28%"><a href="https://github.com/NakacwaOlivia"><img src="https://avatars.githubusercontent.com/u/69842870?v=4" width="100px;" alt="Olivia Nakacwa"/><br /><sub><b>Nakacwa Olivia</b></sub></a><br /><a title="Answering Questions">💬</a> <a title="Documentation">📖</a><a title="Reviewed Pull Requests">👀</a> <a title="Talks">📢</a></td>
+
+<td align="center" valign="top" width="14.28%"><a href="https://github.com/mar-vyn23"><img src="https://avatars.githubusercontent.com/u/101456450?v=4" width="100px;" alt="Marvin Satulo"/><br /><sub><b>Marvin Satulo</b></sub></a><br /><a title="Answering Questions">💬</a> <a title="Documentation">📖</a><a title="Reviewed Pull Requests">👀</a> <a title="Talks">📢</a></td>
 </tr>
 </tbody>
 </table>
